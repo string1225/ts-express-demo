@@ -1,0 +1,32 @@
+{
+  "name": "ts-express-template",
+  "version": "0.1.0",
+  "description": "Typescript Project Template with Express for Middleware Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts",
+    "prod": "tsc && node ./build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/string1225/ts-express-template.git"
+  },
+  "author": "String Shi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/string1225/ts-express-template/issues"
+  },
+  "homepage": "https://github.com/string1225/ts-express-template#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "log4js": "^6.1.2",
+    "typescript": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^13.7.6",
+    "ts-node-dev": "^1.0.0-pre.44"
+  }
+}
