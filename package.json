@@ -21,7 +21,7 @@
   "homepage": "https://github.com/string1225/ts-express-template#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "log4js": "^6.1.2",
+    "log4js": "^6.4.0",
     "typescript": "^3.8.2"
   },
   "devDependencies": {
